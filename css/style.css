@@ -1,6 +1,7 @@
 body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
+  /* background-color: rgb(27, 26, 26) !important; */
 }
 
 .product {
@@ -53,12 +54,13 @@ body {
   justify-content: center;
 }
 
-/* .single-product {
-  padding: 10px;
-  transition: 0.6s;
+.single-product {
+  background-color: rgba(216, 240, 255, 0.979) !important;
+  /* padding: 10px;
+  transition: 0.6s; */
 }
 
-.single-product:hover {
+/* .single-product:hover {
   box-shadow: 4px 4px 7px gray;
   border-radius: 10px;
   border: 1px solid cyan;
